@@ -19,4 +19,6 @@ packs <- c('askpass', 'cpp11', 'fontawesome', 'httr', 'munsell', 'rcmdcheck',
            'farver', 'htmlwidgets', 'miniUI', 'ragg', 'R.utils', 'tinytex', 'conflicted', 'fastmap',
            'httpuv', 'modelr', 'rappdirs', 'rversions', 'tzdb')
 
-install.packages(packs, repos = "https://cran.r-project.org/")
+install.packages(packs,
+                 repos = "https://cran.r-project.org/",
+                 lib = "/n/home01/tbarry/R/x86_64-pc-linux-gnu-library/4.4")
