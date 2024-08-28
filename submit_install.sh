@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -c 1
-#SBATCH -t 12h
+#SBATCH -t 0-12:00:00
 #SBATCH -p shared
 #SBATCH --mem=4GB
 #SBATCH --open-mode=append
